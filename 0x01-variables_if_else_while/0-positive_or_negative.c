@@ -12,7 +12,7 @@
  * is negative if number is less than 0
  * is zero if number is equal to 0
  * Return: 0
- */ 
+ */
 
 int main(void)
 {

@@ -5,7 +5,7 @@
  *
  * Description: using main function
  * this program prints statements
- * based on if condition and 
+ * based on if condition and
  * for loop
  * Return: 0
  */

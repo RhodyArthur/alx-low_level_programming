@@ -2,11 +2,10 @@
 
 /**
  * _islower - entry point
- *
+ * @c: input character
  * Description: this program checks
  * if a character is lower
- * Return 1 if lower
- * otherwise 0
+ * Return: 0
  */
 
 int _islower(int c)

@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_to_98 - entry point
+/**
+ * print_to_98 - entry point
  * @n: input integer
  * Description: print natural numbers
  * from 0 to 98

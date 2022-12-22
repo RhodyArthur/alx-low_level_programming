@@ -4,7 +4,7 @@
  * leet - function
  * @str: array
  * Description: encode string in 1337
- * Return: 0
+ * Return: Always 0.
  */
 
 char *leet(char *str)
@@ -24,4 +24,4 @@ char *leet(char *str)
 		}
 	}
 	return (str);
-}	
+}

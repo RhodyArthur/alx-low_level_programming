@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * leet - function encodes a string
+ * leet - function
  * @str: array
- * Return: array
+ * Description: encode string in 1337
+ * Return: 0
  */
 
 char *leet( char  *str)
@@ -12,7 +13,7 @@ char *leet( char  *str)
 	char s[] = "aAeEoOtTlL";
 	char s1[] = "4433007711";
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (; str[i] != '\0'; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{

@@ -2,8 +2,8 @@
 
 /**
  * _strcat - function
- * @dest: s1
- * @src: s2
+ * @dest: string 1
+ * @src: string 2
  * Description: concatenate two strings
  * Return: 0
  */

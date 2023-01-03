@@ -4,6 +4,7 @@
  * print_diagsums - function
  * @a: array
  * @size: buffer
+ *
  * Description: prints sum of two diagonals
  * Return: 0
  */

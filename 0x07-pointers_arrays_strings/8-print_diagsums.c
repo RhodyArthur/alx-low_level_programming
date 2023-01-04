@@ -3,9 +3,8 @@
 /**
  * print_diagsums - function
  * @a: array
- * @size: buffer
- *
- * Description: prints sum of two diagonals
+ * @size: size of array
+ * Description: prints sum of diagonals
  * Return: 0
  */
 
@@ -21,7 +20,7 @@ void print_diagsums(int *a, int size)
 			{
 				s = s + a[(size + 1) * i];
 			}
-			if ( i + j == size - 1)
+			if (i + j == size - 1)
 			{
 				t = t + a[(size - 1) * (i + 1)];
 			}

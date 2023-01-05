@@ -8,7 +8,7 @@
  * Return: n
  */
 
-int is_prime_number(int n)
+int prime_i(int i, int j)
 {
 	if (i <= 1 || (i != j && i % j == 0))
 	{

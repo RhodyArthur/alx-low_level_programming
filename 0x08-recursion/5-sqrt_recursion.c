@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqrt_i - function
+ * sqrt_i - function
  * @i: number
  * @j: number of power
  * Description: returns square root of a number

@@ -3,7 +3,7 @@
 /**
  * _sqrt_i - function
  * @i: number
- * @j: root of number
+ * @j: number of power
  * Description: returns square root of a number
  * Return: 0
  */
@@ -25,9 +25,8 @@ int sqrt_i(int i, int j)
  * _sqrt_recursion - returns square root
  * @n: number
  *
- * Return: n
+ * Return: 0
  */
-
 int _sqrt_recursion(int n)
 {
 	return (sqrt_i(n, 0));

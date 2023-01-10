@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		mul *= atoi(argv[argv - 2]);
-		mul *= atoi(argv[argv - 1]);
+		mul *= atoi(argv[argc - 2]);
+		mul *= atoi(argv[argc - 1]);
 		printf("%d\n", mul);
 	}
 	else

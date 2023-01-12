@@ -13,7 +13,7 @@
  * Return: 0
  */
 
-int main(int argc, char*argv[])
+int main(int argc, char *argv[])
 {
 	int i = 1, j = 0, coins, change = 0, x;
 	int cent[5] = {25, 10, 5, 2, 1}

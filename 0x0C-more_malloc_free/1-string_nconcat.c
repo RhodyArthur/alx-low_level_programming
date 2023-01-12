@@ -17,14 +17,14 @@ int _strlen(char *s)
 	}
 
 /**
- * string_noncat - concatenates two strings
+ * string_nconcat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
  * @n: bytes of s2
  * Return: 0
  */
 
-char *string_noncat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
 	int num, i, j, length;

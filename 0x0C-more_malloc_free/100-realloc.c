@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * _realloc - reallocates a memory block
- * @ptr: pointer
- * @old_size: size in bytes for ptr
- * @new_size: size in bytes for new memory block
- * Return: 0
- */
+  * _realloc - reallocates a memory block
+  * @ptr: pointer
+  * @old_size: size in bytes for ptr
+  * @new_size: size in bytes for new memory block
+  * Return: 0
+  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {

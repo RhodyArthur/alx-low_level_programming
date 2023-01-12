@@ -17,7 +17,7 @@ int _strlen(char *s)
 	}
 
 /**
- * string_noncat - concates two strings
+ * string_noncat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
  * @n: bytes of s2
@@ -27,37 +27,40 @@ int _strlen(char *s)
 char *string_noncat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
-	unsigned x, y, z;
+	unsigned num, i, j, length;
+
+	num = n;
 
 	if (s1 == NULL)
+	{
 		s1="";
+	}
 	if (s2 == NULL)
+	{
 		s2="";
+	}
+	if (num < 0)
+		return (NULL);
+	if (num >= _strlen(s2))
+		num = _strlen(s2);
 
-	y = _strlen(s1);
-	x = _strlen(s2);
-	if (n < x)
-		x = n;
+	length = _strlen(s1) + num + 1;
 
-	str = malloc(y + x + 1);
+	str = malloc(sizeof(*str) * length);
 
 	if (str == NULL)
-	{
 		return (NULL);
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+		str[i] = s1[i];
 	}
 
-	for (z = 0; z < y; z++)
+	for (j = 0; j < num; j++)
 	{
-		*(str + z) = *(s1 + z);
+		str[i + j] = s2[j];
 	}
+	str[i + j] = '\0';
 
-	for ( z = 0;  z < x; z++)
-	{
-		*(str + (z + x)) = *(s2 + z);
-	}
-	*(str + (z + x)) = '\0';
 	return (str);
 }
-
-
 

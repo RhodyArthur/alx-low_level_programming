@@ -27,7 +27,7 @@ int _strlen(char *s)
 char *string_noncat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
-	unsigned num, i, j, length;
+	int num, i, j, length;
 
 	num = n;
 

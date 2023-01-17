@@ -12,43 +12,44 @@ char *_strcpy(char *dest, char *src);
  *
  * Return: 0
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *cutie_dog;
+	dog_t *dog_1;
 	int name_l = 0, own_l = 0;
 
 	if (name != NULL && owner != NULL)
 	{
 		name_l = _strlen(name) + 1;
 		own_l = _strlen(owner) + 1;
-		cutie_dog = malloc(sizeof(dog_t));
+		dog_1 = malloc(sizeof(dog_t));
 
-		if (cutie_dog == NULL)
+		if (dog_1 == NULL)
 			return (NULL);
 
-		cutie_dog->name = malloc(sizeof(char) * name_l);
+		dog_1->name = malloc(sizeof(char) * name_l);
 
-		if (cutie_dog->name == NULL)
+		if (dog_1->name == NULL)
 		{
-			free(cutie_dog);
+			free(dog_1);
 			return (NULL);
 		}
 
-		cutie_dog->owner = malloc(sizeof(char) * own_l);
+		dog_1->owner = malloc(sizeof(char) * own_l);
 
-		if (cutie_dog->owner == NULL)
+		if (dog_1->owner == NULL)
 		{
-			free(cutie_dog->name);
-			free(cutie_dog);
+			free(dog_1->name);
+			free(dog_1);
 			return (NULL);
 		}
 
-		cutie_dog->name = _strcpy(cutie_dog->name, name);
-		cutie_dog->owner = _strcpy(cutie_dog->owner, owner);
-		cutie_dog->age = age;
+		dog_1->name = _strcpy(dog_1->name, name);
+		dog_1->owner = _strcpy(dog_1->owner, owner);
+		dog_1->age = age;
 	}
 
-	return (cutie_dog);
+	return (dog_1);
 }
 
 /**

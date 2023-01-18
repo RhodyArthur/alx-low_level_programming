@@ -3,12 +3,12 @@
 /**
  * print_name: prints name
  * @name: name of person
- * @f: print name as it is and in uppercase
+ * @f: function pointer
  * Return: 0
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-	if (name != NULL || f != NULL)
+	if (name != NULL && f != NULL)
 		f(name);
 }

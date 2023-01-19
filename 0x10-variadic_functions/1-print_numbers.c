@@ -3,10 +3,10 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - check the code for Holberton School students.
+ * print_numbers - print numbers
  * @n: number of arguments
  * @separator: character separator of numbers
- * Return: Always 0.
+ * Return: Always 0
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {

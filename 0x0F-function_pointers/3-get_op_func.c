@@ -6,7 +6,7 @@
  * get_op_func - check if the operator is valid
  * @s: value input operator
  *
- * Return: 0 if false, something else otherwise.
+ * Return: 0 if false, something else otherwise
  */
 int (*get_op_func(char *s))(int, int)
 {

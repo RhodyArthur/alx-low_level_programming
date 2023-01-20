@@ -3,9 +3,8 @@
 #include <stdarg.h>
 
 /**
- * op_c - Print character .
+ * op_c - print character
  * @form: name va_list
- *
  * Return: Nothing.
  */
 
@@ -13,10 +12,10 @@ void op_c(va_list form)
 {
 	printf("%c", va_arg(form, int));
 }
+
 /**
  * op_i - Print Integer
  * @form: name va_list
- *
  * Return: Nothing.
  */
 
@@ -24,10 +23,10 @@ void op_i(va_list form)
 {
 	printf("%i", va_arg(form, int));
 }
+
 /**
- * op_f - print FLoat numbers
+ * op_f - print float
  * @form: name of va_list
- *
  * Return: Nothing.
  */
 
@@ -35,10 +34,10 @@ void op_f(va_list form)
 {
 	printf("%f", va_arg(form, double));
 }
+
 /**
- * op_s -print string
+ * op_s - print string
  * @form: name va_list
- *
  * Return: Nothing.
  */
 
@@ -56,9 +55,8 @@ void op_s(va_list form)
 }
 
 /**
- * print_all - check the code for Holberton School students.
- * @format: number of arguments in character format
- *
+ * print_all - print all
+ * @format: number of arguments
  * Return: Nothing.
  */
 

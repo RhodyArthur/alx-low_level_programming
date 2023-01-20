@@ -6,8 +6,9 @@
  * print_numbers - print numbers
  * @n: number of arguments
  * @separator: character separator of numbers
- * Return: Always 0
+ * Return: Always 0.
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;

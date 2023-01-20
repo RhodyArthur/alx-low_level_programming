@@ -3,11 +3,12 @@
 #include <stdarg.h>
 
 /**
- * print_strings - prints strings.
+ * print_strings - prints string.
  * @n: number of arguments
- * @separator: character separator of numbers
+ * @separator: character separator
  * Return: Always 0.
  */
+
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list string;

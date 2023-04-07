@@ -1,4 +1,4 @@
-[200~#ifndef _HASH_TABLE_
+#ifndef _HASH_TABLE_
 #define _HASH_TABLE_
 
 
